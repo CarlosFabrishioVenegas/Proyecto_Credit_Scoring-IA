@@ -1,18 +1,30 @@
-﻿# Proyecto_Credit_Scoring-IA
+# 🧠 IA Generativa LLM – Proyecto “Terrenitos”
 
-📌 Descripción
+## 📌 Descripción  
+Proyecto que aplica **IA Generativa** y **modelos LLM** para analizar conversaciones del call center y **predecir el grado de conformidad del cliente**, combinando datos estructurados (pagos, facturación) y no estructurados (llamadas).
 
-Proyecto que aplica IA Generativa y modelos LLM para analizar conversaciones del call center y predecir el grado de conformidad del cliente, combinando datos estructurados (pagos, facturación) y no estructurados (llamadas).
+## 🎯 Objetivo  
+Identificar clientes en riesgo de abandono y recomendar **estrategias de retención personalizadas**, diferenciadas en:
+- 💰 **Beneficios económicos**
+- 🎁 **Beneficios adicionales**
 
-🎯 Objetivo
+## ⚙️ Solución  
+Se utiliza un modelo **OpenAI LLM** con **embeddings en Python** para evaluar el tono y la conformidad en las conversaciones.  
+Los resultados se integran con la información de pagos y facturación para generar una **Matriz de Priorización de Clientes** que guía las acciones del equipo de retención.
 
-Identificar clientes en riesgo de abandono y recomendar estrategias de retención diferenciadas:
+## 🧩 Flujo General
+```plaintext
+CRM (llamadas) + ERP (pagos)
+        ↓
+Embeddings OpenAI → Grado de conformidad
+        ↓
+Matriz de priorización de clientes
+```
 
-Beneficios económicos
+🚀 Impacto
 
-Beneficios adicionales
+🔍 Mejora la comprensión del cliente.
 
-⚙️ Solución
+🧠 Automatiza el análisis de satisfacción.
 
-Se usa un modelo OpenAI LLM con embeddings en Python para medir conformidad en las llamadas.
-Los resultados se integran con la base estructurada de pagos y facturación para construir una Matriz de Priorización de Clientes que guía las acciones del equipo de retención.
+📈 Optimiza la retención y decisiones estratégicas.
