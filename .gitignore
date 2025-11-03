@@ -1,0 +1,21 @@
+# Entornos virtuales
+venv/
+.env
+*.env
+
+# Archivos grandes y sensibles
+*.pkl
+*.joblib
+*.sav
+*.json
+*.mp3
+*.m4a
+*.wav
+*.zip
+*.tar
+*.gz
+
+# Archivos temporales
+__pycache__/
+*.log
+*.tmp
